@@ -1,0 +1,88 @@
+<!-- This is Home page and it contains trending blogs and access to write a blog with guest account. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Noto+Serif+Georgian:wght@100..900&family=Engagement&family=Rubik+Vinyl&family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav_container">
+        <button id="menu_icon"><i class="fa-solid fa-bars"></i></button>
+        <nav id="navigation">
+            <a href="./home.html" class="anchor_back">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./write.html"><i class="fa-regular fa-pen-to-square"></i>Write</a>
+            <a href="./post.html">Your Posts</a>
+            <div id="user"><i class="fa-solid fa-user"></i></div>
+        </nav>
+        <div id="nav_button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></div>
+    </div>
+    
+    <header>
+        <div class="header_box1" id="logo"><a href="./index.html">BlogFlow</a></div>
+        <div class="header_box2">
+            <div id="search_bar">
+                <button id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Search" autocomplete="off">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main_left">
+            <h1>Trending Posts</h1>
+        </div>
+         <div id="main_right">
+            <div id="side_card">
+                <h2>Writing on BlogFlow</h2>
+                <ul>
+                    <li>Express your thoughts</li>
+                    <li>Boost your writing skills</li>
+                    <li>Stay updated on Trends</li>
+                    <li>Make new connections</li>
+                    <li>Create your digital legacy</li>
+                </ul>
+                <button><a href="./write.html">Create New Blog</a></button>
+            </div>
+         </div>
+    </main>
+    <aside id="categories">
+        <button id="close"><i class="fa-regular fa-circle-xmark"></i></button>
+        <h2>Recommended Topics</h1>
+        <ul id="topics">
+            <li class="recommended_topic">Technology</li>
+            <li class="recommended_topic">Self Improvement</li>
+            <li class="recommended_topic">Politics</li>
+            <li class="recommended_topic">Writing</li>
+            <li class="recommended_topic">Relationships</li>
+            <li class="recommended_topic">Cryptocurrency</li>
+            <li class="recommended_topic">Productivity</li>
+            <li class="recommended_topic">Money</li>
+            <li class="recommended_topic">Artificial Intelligence</li>
+            <li class="recommended_topic">Gaming</li>
+            <li class="recommended_topic">Programming</li>
+            <li class="recommended_topic">Finance</li>
+        </ul>
+        <h2 id="reading_list">Reading List</h2>
+        <p id="reading_list_para">Click the <i class="fa-regular fa-bookmark"></i> on any story to easily add it to your reading list or a custom list that you can share.</p>
+    </aside>
+
+    <aside id="side_nav">
+        <button id="nav_close"><i class="fa-regular fa-circle-xmark"></i></button>
+        <nav>
+            <a href="./home.html" class="anchor_back">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./write.html"><i class="fa-regular fa-pen-to-square"></i>Write</a>
+            <a href="./post.html">Your Posts</a>
+        </nav>
+    </aside>
+
+    <script src="./home.js"></script>
+</body>
+</html>
