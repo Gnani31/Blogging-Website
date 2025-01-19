@@ -5,7 +5,7 @@ INTRODUCTION:
 
 FEATURES: 
   1) Rich text editor: We can create our own post using this editor.There are options to style the content like format button(bold, italic etc.), align buttons(left align, right             align,center) and spacing button etc.
-  2) Your posts page: The created posts can be seen in this page.This made it using local storage.
+  2) Your posts page: The created posts can be seen in this page.I made it using local storage.
   3) Created posts can also be edited and deleted.
 
 HOW TO USE: 
