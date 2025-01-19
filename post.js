@@ -46,6 +46,8 @@ main.addEventListener("click",(event) => {
         const ind = event.target.parentElement.parentElement.id;
         const edit_title = posts[ind].title;
         const edit_para = posts[ind].para;
+        posts.splice(ind,1);
+        localStorage.setItem("posts",JSON.stringify(posts));
         localStorage.setItem("edit_title",edit_title);
         localStorage.setItem("edit_para",edit_para);
         window.location.href = './write.html';
