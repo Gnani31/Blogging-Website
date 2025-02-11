@@ -121,7 +121,8 @@ header {
 }
 
 .header_box1#logo {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
     font-family: "Engagement", serif;
     font-size: 3rem;
     padding-top: 50px;
